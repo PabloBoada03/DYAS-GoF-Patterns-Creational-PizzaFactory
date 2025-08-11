@@ -8,8 +8,9 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class MoldeadorPizzaDelgada {
-
+public class MoldeadorPizzaDelgada implements Moldeador{
+    
+    @Override
     public void moldearPizzaPequena() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
                 .log(Level.INFO, "[O] Moldeando pizza pequena de masa convencional.");
@@ -17,8 +18,9 @@ public class MoldeadorPizzaDelgada {
         //CODIGO DE LLAMADO AL MICROCONTROLADOR
 
     }
-
-    public void molderarPizzaMediana() {
+    
+   @Override
+    public void moldearPizzaMediana() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
                 .log(Level.INFO, "[O] Moldeando pizza mediana de masa convencional.");
         

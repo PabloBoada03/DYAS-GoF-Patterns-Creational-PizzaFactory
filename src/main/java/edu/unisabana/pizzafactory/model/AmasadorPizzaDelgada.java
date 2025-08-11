@@ -8,11 +8,11 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class AmasadorPizzaDelgada {
+public class AmasadorPizzaDelgada implements Amasador{
 
     
-    
-    public void amasar() {
+    @Override
+    public void Amasar() {
         Logger.getLogger(AmasadorPizzaDelgada.class.getName())
                 .log(Level.INFO, "[@@] Amasando la pizza delgada con masa convencional.");
         
