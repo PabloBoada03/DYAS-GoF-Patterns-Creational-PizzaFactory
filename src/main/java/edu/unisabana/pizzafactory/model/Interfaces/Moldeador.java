@@ -2,12 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package edu.unisabana.pizzafactory.model;
+package edu.unisabana.pizzafactory.model.Interfaces;
 
 /**
  *
  * @author pablo
  */
-public interface Horneador {
-    public void hornear();
+public interface Moldeador {
+    public void moldearPizzaPequena();
+    public void moldearPizzaMediana();
 }

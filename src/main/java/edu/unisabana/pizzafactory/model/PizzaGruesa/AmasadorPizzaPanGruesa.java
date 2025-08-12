@@ -1,7 +1,8 @@
 
-package edu.unisabana.pizzafactory.model;
+package edu.unisabana.pizzafactory.model.PizzaGruesa;
 
 
+import edu.unisabana.pizzafactory.model.Interfaces.Amasador;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
