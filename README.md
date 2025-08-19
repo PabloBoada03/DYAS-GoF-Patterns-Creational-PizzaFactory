@@ -22,4 +22,6 @@ Este taller consistió en **analizar y refactorizar** el código dado en el repo
    - Las clases se organizaron en **paquetes separados por tipo de masa de pizza**.  
    - Se añadió en `main` la creación de **nuevos tipos de pizza**, para comprobar y mostrar el correcto funcionamiento del código después del refactoring.  
 
+4- **Créditos de trabajo en equipo**
+   - Ana María Cordero Escobar
 ---
